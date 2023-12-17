@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BlendBite Bistro.tn</title>
+    <link rel="icon" href="image/logo.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- pour relier votre fichier css-->
+    <script src="script.js"></script>
+    <!-- relier le fichier java script-->
+  </head>
+  <body>
+    <!----barre de navigation---->
+    <header>
+      <nav>
+        <a href="index.html"
+          ><h2><span>BlendBite</span>Bistro</h2></a
+        >
+        <a href="#produit">Notre Menu</a>
+        <a href="marque.html">Les Partenaires</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="signin.html">Sign in</a>
+      </nav>
+    </header>
+    <h1 class="ident">Identifiez-vous</h1>
+    <section class="identifier">
+      <div class="signin">
+        <h3>JE N'AI PAS DE COMPTE CLIENT</h3>
+        <p>Commandez en tant qu'invité en moins de 30 secondes</p>
+        <label>Votre adresse email :</label><br />
+        <input type="email" id="email-signup" placeholder="Email" />
+        <p id="email"></p>
+
+        <label>Choisissez un mot de passe :</label><br />
+        <input type="password" id="pass-signup" placeholder="******" />
+        <p id="pass"></p>
+
+        <label>Confirmez votre mot de passe :</label><br />
+        <input type="password" id="confirm-pass" placeholder="******" />
+        <p id="pass2"></p>
+        <button type="submit" onclick="verif1()">Valider</button>
+      </div>
+
+      <div class="signin form-droit">
+        <h3>J'AI DÉJÀ UN COMPTE CLIENT</h3>
+        <p>Connectez-vous à votre espace client avec vos accès</p>
+        <label>Votre adresse email :</label><br />
+        <input type="email" id="email-signin" placeholder="Email" />
+        <p id="email2"></p>
+        <label>Mot de passe :</label><br />
+        <input type="password" id="pass-signin" placeholder="******" />
+        <p id="pass3"></p>
+        <button type="submit" onclick="verif2()">CONNEXION</button>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div class="footer">
+      <p>COPYRIGHT © 2023. ALL RIGHTS RESERVED.</p>
+      <div class="logos">
+        <a href="https://www.facebook.com" target="_blank"
+          ><img src="image/Facebook Logo.png"
+        /></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><img src="image/youtube-logo.png"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="image/insta-logo.png"
+        /></a>
+      </div>
+    </div>
+  </footer>
+</html>

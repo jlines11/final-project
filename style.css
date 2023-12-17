@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+/*--------page d'acceuil--------------------*/
+/*-----------image background---------------------*/
+.back {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/*---------------------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5% 8% 1.5% 4%;
+  background-color: black;
+}
+
+nav span {
+  color: #f9004d;
+}
+/*---------------------*/
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*---------------------*/
+nav a:hover,
+.plus:hover {
+  color: #3a4b60;
+  transition: 0.4s;
+}
+/*---------------------*/
+.text {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+/*---------------------*/
+.text h1 {
+  color: #f9004d;
+  margin: 30px 0px 20px;
+  font-size: 75px;
+}
+.text h3 {
+  color: rgb(243, 236, 236);
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.en-tete {
+  color: cadetblue;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+hr {
+  margin-left: 5%;
+  width: 5%;
+  border-top: 2px solid #3a4b60;
+}
+/*---------produits ----------------*/
+.produits {
+  margin: 3%;
+  display: flex;
+  justify-content: center; /********************/
+  flex-wrap: wrap;
+  width: 95%;
+}
+.prod img {
+  width: 100%;
+  height: 300px;
+}
+.prod {
+  width: 20%;
+  margin: 30px;
+  border: 10px solid rgb(224, 218, 218);
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.prod:hover,
+.marque:hover {
+  transform: scale(1.2);
+}
+
+.description p {
+  font-family: cursive;
+  font-size: 15px;
+  padding: 2%;
+}
+.text-desc {
+  background-color: rgba(226, 43, 43, 0.884);
+}
+.prix {
+  text-align: center;
+  color: blanchedalmond;
+  background-color: black;
+}
+.plus {
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  text-decoration: underline;
+  color: #f9004d;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*------page contact---------------*/
+.contact {
+  padding-top: 5%;
+  padding-left: 5%;
+  color: rgb(58, 75, 96);
+  margin-bottom: 18%;
+}
+.single_address span {
+  font-weight: 600;
+}
+.single_address,
+.contact h4,
+.contact input {
+  margin-bottom: 15px;
+}
+.contact input {
+  margin-right: 10px; /**********/
+}
+
+button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  margin-left: 35%;
+  width: 140px;
+  height: 40px;
+  color: rgb(58, 75, 96);
+  font-size: 14px;
+  border: 2px solid rgb(58, 75, 96);
+}
+button:hover {
+  color: white;
+  background-color: rgb(58, 75, 96);
+}
+/*---------------------*/
+.adress_text {
+  float: right;
+}
+.forms {
+  margin-left: 50px;
+  width: 60%;
+  float: left;
+}
+/*---------------------*/
+.form-control {
+  width: 330px;
+  padding: 3%;
+}
+.message {
+  width: 675px;
+}
+/*------sign in page---------------*/
+.ident {
+  margin-top: 3%;
+  margin-left: 10%;
+}
+.identifier {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-bottom: 8%;
+}
+.signin {
+  width: 550px;
+  height: 480px;
+  margin-top: 2%;
+  margin-right: 2%;
+  background-color: rgb(233, 230, 230);
+  padding: 2%;
+}
+.form-droit {
+  background-color: whitesmoke;
+}
+.identifier input {
+  width: 500px;
+  padding: 2%;
+  margin-bottom: 15px;
+}
+.identifier p {
+  margin-bottom: 15px;
+}
+.identifier h3 {
+  color: rgb(39, 151, 39);
+  margin-bottom: 20px;
+}
+
+/*-------------footer------------------------*/
+footer {
+  background-color: black;
+  color: blanchedalmond;
+  clear: both;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  padding: 1%;
+}
+/*-----------about---------------------------*/
+.about {
+  background-color: rgb(199, 211, 207);
+}
+.about-text {
+  margin-bottom: 4%;
+}
+.logos-about {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.logo {
+  margin: 2%;
+  padding: 1%;
+  width: 20%;
+  text-align: center;
+}
+.logo p {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  color: rgb(97, 107, 107);
+}
+.logo img {
+  margin-bottom: 2%;
+}
+
+.about-icon {
+  margin-right: 3%;
+  margin-top: 7%;
+}
+.about-icon img {
+  display: block;
+  margin: auto;
+}
+.about-text {
+  padding: 2%;
+  margin-left: 8%;
+  width: 70%;
+  font-size: 18px;
+  color: rgb(48, 46, 46);
+  float: left;
+}
+.about-text p {
+  margin: 2%;
+}
+/*----------------marques-------------------------*/
+.marques {
+  margin: 2%;
+  margin-left: 5%;
+  width: 90%;
+}
+.marques p {
+  font-size: 14px;
+  color: #494c50;
+}
+.marques h2 {
+  color: #3f464e;
+}
+
+.logos-marque {
+  display: flex;
+  flex-wrap: wrap;
+}
+.marque img {
+  width: 250px;
+  height: 100px;
+}
+.marque {
+  margin: 2%;
+  transition: 0.3s all;
+}
+/**************************************************/

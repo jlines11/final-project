@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BlendBite Bistro.tn</title>
+    <link rel="icon" href="image/logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css"><!-- pour relier votre fichier css-->
+    <script src="script.js"></script> <!-- relier le fichier java script-->
+</head>
+<body>
+    <!----barre de navigation---->
+    <header>
+		<nav>
+            <a href="index.html"><h2><span>BlendBite</span>Bistro</h2></a>
+            <a href="#produit">Notre Menu</a>
+            <a href="marque.html">Les Partenaires</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="signin.html">Sign in</a>
+		</nav>
+    </header>
+
+    	<!-- Contact-Section-End -->
+        <section class="contact">
+            <div class="forms">
+            <h4>Write your message here</h4>
+                <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Your Mail">  
+                <p id="nom"></p> <p id="email-c"></p>
+                <input type="text" class="form-control" id="inputnumber" placeholder="Your Number">   
+                <input type="text" class="form-control" id="inputSubject" placeholder="Subject"> 
+                <p id="number"></p><p id="subject"></p>   
+                <textarea id="inputcomment" class="form-control message" placeholder="Message" rows="9"></textarea>
+                <p id="comment"></p>
+                <button type="submit" onclick="test()">Send Message</button>
+            </div>
+
+                <div class="address_text">
+                    <div class="single_address">
+                        <h4>Give us a call or write to us</h4>
+                        <p><span>Tel</span></p>
+                        <p>+216-20888777</p>
+                        <p>+216-20777888</p>
+                    </div>
+                    <div class="single_address">
+                        <p><span>Email</span></p>
+                        <p>info@blendbite-bistro.tn</p>
+                    </div>
+                    <div class="single_address">
+                        <p><span>Address:</span></p>
+                        <p>4 Avenue Hasan,</p>
+                        <p>2052 Bardo, Tunisie</p>
+                    </div>
+                    <div class="single_address">
+                        <p><span>Web:</span></p>
+                        <p>www.BlendBite Bistro.tn </p>
+                    </div>
+                </div>
+        </section>
+	<!-- Contact-Section-End -->
+
+</body>
+<footer>
+    <div class="footer">
+        <p>COPYRIGHT © 2023. ALL RIGHTS RESERVED.</p>
+        <div class="logos">
+            <a href="https://www.facebook.com" target="_blank"><img src="image/Facebook Logo.png"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="image/youtube-logo.png"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="image/insta-logo.png"></a>
+        </div>
+    </div>
+</footer>
+</html>
